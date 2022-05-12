@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+.titleHeader,
+.logoSection {
+  display: inline-block;
+}
+
+.estAndregd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.titleAddress,
+.titleContact {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav ul li {
+  display: flex;
+  border: 1px solid black;
+  width: 5rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  background-color: antiquewhite;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.nav ul li:hover {
+  background-color: white;
+  cursor: pointer;
+}
